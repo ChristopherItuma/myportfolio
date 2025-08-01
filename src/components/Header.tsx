@@ -18,7 +18,7 @@ const Header = () => {
        const textChange = document.querySelectorAll('nav')
        const textChangeMobile = document.querySelectorAll('ul')
       if (scroll) {
-        scroll.style.backgroundColor = scrollPosition > 200 ? 'white' : '';
+        scroll.style.backgroundColor = scrollPosition > 200 ? 'whitesmoke' : '';
         scroll.style.boxShadow= scrollPosition > 200 ? "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)2":""
       }
       if(textChange){
@@ -37,7 +37,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className='sticky top-0 z-50 px-5 md:px-12 lg:px-24 py-3 md:py-7 bg-primary transition duration-300 ease-in-out'>
+    <header className='sticky top-0 z-50 px-5 md:px-12 lg:px-24 py-3 md:py-7 bg-primary transition duration-300 ease-in'>
       <nav className='flex justify-between items-center   text-white'>
         <Link href='/'><h3 className='text-2xl md:text-xl lg:text-3xl uppercase '>Christopher Ituma</h3></Link>
         

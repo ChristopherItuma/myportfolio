@@ -8,7 +8,7 @@ import {motion} from 'motion/react';
 
 const Skills = () => {
   return (
-    <div className='bg-foreground px-5 md:px-12 lg:px-24 py-24'>
+    <div className='bg-foreground px-5 md:px-12 lg:px-24 py-24' id="skills">
       <motion.div 
       initial={{ opacity: 0.4, y:50 }}
       whileInView={{ opacity: 1, y: 0 }}
